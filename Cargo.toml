@@ -34,11 +34,11 @@ required-features = ["ui"]
 [dependencies]
 num-traits = "0.2.14"
 console_error_panic_hook = { version = "0.1.7", optional = true }
-dioxus = { git = "https://github.com/dioxuslabs/dioxus", optional = true }
-dioxus-signals = { git = "https://github.com/dioxuslabs/dioxus", optional = true }
-dioxus-web = { git = "https://github.com/dioxuslabs/dioxus", optional = true }
-dioxus-resize-observer = { git = "https://github.com/dioxus-community/dioxus-resize-observer", optional = true }
-dioxus-use-mounted= { git = "https://github.com/matthunz/dioxus-use-mounted", optional = true }
+dioxus = { version = "0.4", optional = true }
+dioxus-signals = { version = "0.4", optional = true }
+dioxus-web = { version = "0.4", optional = true }
+dioxus-resize-observer= { git = "https://github.com/adlrwbr/dioxus-resize-observer/", branch = "dioxus-0.4", optional = true }
+dioxus-use-mounted= { git = "https://github.com/adlrwbr/dioxus-use-mounted/", branch = "dioxus-0.4", optional = true }
 bumpalo = { version = "3.14.0", features = ["boxed"], optional = true }
 
 [dependencies.serde]
